@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1196CDF315BEEFD8001D09F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1196CDF215BEEFD8001D09F8 /* UIKit.framework */; };
+		1196CDF515BEEFD8001D09F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1196CDF415BEEFD8001D09F8 /* Foundation.framework */; };
+		1196CDF715BEEFD8001D09F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1196CDF615BEEFD8001D09F8 /* CoreGraphics.framework */; };
+		1196CDFD15BEEFD8001D09F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1196CDFB15BEEFD8001D09F8 /* InfoPlist.strings */; };
+		1196CDFF15BEEFD8001D09F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1196CDFE15BEEFD8001D09F8 /* main.m */; };
+		1196CE0315BEEFD8001D09F8 /* TMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1196CE0215BEEFD8001D09F8 /* TMAppDelegate.m */; };
+		1196CE0615BEEFD8001D09F8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1196CE0415BEEFD8001D09F8 /* MainStoryboard.storyboard */; };
+		1196CE0915BEEFD8001D09F8 /* TMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1196CE0815BEEFD8001D09F8 /* TMViewController.m */; };
+		9A8FAEA415BF743700AA54E2 /* TMEllipseProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FAEA315BF743700AA54E2 /* TMEllipseProgressView.m */; };
+		9A8FAEA715BF744C00AA54E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8FAEA615BF744C00AA54E2 /* QuartzCore.framework */; };
+		9A8FAEAA15BF765800AA54E2 /* TMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FAEA915BF765800AA54E2 /* TMTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1196CDEE15BEEFD8001D09F8 /* TMEllipseProgressViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMEllipseProgressViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1196CDF215BEEFD8001D09F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1196CDF415BEEFD8001D09F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1196CDF615BEEFD8001D09F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1196CDFA15BEEFD8001D09F8 /* TMEllipseProgressViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TMEllipseProgressViewDemo-Info.plist"; sourceTree = "<group>"; };
+		1196CDFC15BEEFD8001D09F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1196CDFE15BEEFD8001D09F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1196CE0015BEEFD8001D09F8 /* TMEllipseProgressViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TMEllipseProgressViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1196CE0115BEEFD8001D09F8 /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAppDelegate.h; sourceTree = "<group>"; };
+		1196CE0215BEEFD8001D09F8 /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAppDelegate.m; sourceTree = "<group>"; };
+		1196CE0515BEEFD8001D09F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1196CE0715BEEFD8001D09F8 /* TMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMViewController.h; sourceTree = "<group>"; };
+		1196CE0815BEEFD8001D09F8 /* TMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMViewController.m; sourceTree = "<group>"; };
+		9A8FAEA215BF743700AA54E2 /* TMEllipseProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMEllipseProgressView.h; sourceTree = "<group>"; };
+		9A8FAEA315BF743700AA54E2 /* TMEllipseProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMEllipseProgressView.m; sourceTree = "<group>"; };
+		9A8FAEA615BF744C00AA54E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9A8FAEA815BF765800AA54E2 /* TMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMTableViewController.h; sourceTree = "<group>"; };
+		9A8FAEA915BF765800AA54E2 /* TMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1196CDEB15BEEFD8001D09F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A8FAEA715BF744C00AA54E2 /* QuartzCore.framework in Frameworks */,
+				1196CDF315BEEFD8001D09F8 /* UIKit.framework in Frameworks */,
+				1196CDF515BEEFD8001D09F8 /* Foundation.framework in Frameworks */,
+				1196CDF715BEEFD8001D09F8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1196CDE315BEEFD8001D09F8 = {
+			isa = PBXGroup;
+			children = (
+				1196CDF815BEEFD8001D09F8 /* TMEllipseProgressViewDemo */,
+				9A8FAEA115BF743700AA54E2 /* TMEllipseProgressView */,
+				1196CDF115BEEFD8001D09F8 /* Frameworks */,
+				1196CDEF15BEEFD8001D09F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1196CDEF15BEEFD8001D09F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1196CDEE15BEEFD8001D09F8 /* TMEllipseProgressViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1196CDF115BEEFD8001D09F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A8FAEA615BF744C00AA54E2 /* QuartzCore.framework */,
+				1196CDF215BEEFD8001D09F8 /* UIKit.framework */,
+				1196CDF415BEEFD8001D09F8 /* Foundation.framework */,
+				1196CDF615BEEFD8001D09F8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1196CDF815BEEFD8001D09F8 /* TMEllipseProgressViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1196CE0115BEEFD8001D09F8 /* TMAppDelegate.h */,
+				1196CE0215BEEFD8001D09F8 /* TMAppDelegate.m */,
+				1196CE0415BEEFD8001D09F8 /* MainStoryboard.storyboard */,
+				9A8FAEA815BF765800AA54E2 /* TMTableViewController.h */,
+				9A8FAEA915BF765800AA54E2 /* TMTableViewController.m */,
+				1196CE0715BEEFD8001D09F8 /* TMViewController.h */,
+				1196CE0815BEEFD8001D09F8 /* TMViewController.m */,
+				1196CDF915BEEFD8001D09F8 /* Supporting Files */,
+			);
+			path = TMEllipseProgressViewDemo;
+			sourceTree = "<group>";
+		};
+		1196CDF915BEEFD8001D09F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1196CDFA15BEEFD8001D09F8 /* TMEllipseProgressViewDemo-Info.plist */,
+				1196CDFB15BEEFD8001D09F8 /* InfoPlist.strings */,
+				1196CDFE15BEEFD8001D09F8 /* main.m */,
+				1196CE0015BEEFD8001D09F8 /* TMEllipseProgressViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A8FAEA115BF743700AA54E2 /* TMEllipseProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				9A8FAEA215BF743700AA54E2 /* TMEllipseProgressView.h */,
+				9A8FAEA315BF743700AA54E2 /* TMEllipseProgressView.m */,
+			);
+			name = TMEllipseProgressView;
+			path = ../TMEllipseProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1196CDED15BEEFD8001D09F8 /* TMEllipseProgressViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1196CE0C15BEEFD8001D09F8 /* Build configuration list for PBXNativeTarget "TMEllipseProgressViewDemo" */;
+			buildPhases = (
+				1196CDEA15BEEFD8001D09F8 /* Sources */,
+				1196CDEB15BEEFD8001D09F8 /* Frameworks */,
+				1196CDEC15BEEFD8001D09F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMEllipseProgressViewDemo;
+			productName = TMEllipseProgressViewDemo;
+			productReference = 1196CDEE15BEEFD8001D09F8 /* TMEllipseProgressViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1196CDE515BEEFD8001D09F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TM;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1196CDE815BEEFD8001D09F8 /* Build configuration list for PBXProject "TMEllipseProgressViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1196CDE315BEEFD8001D09F8;
+			productRefGroup = 1196CDEF15BEEFD8001D09F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1196CDED15BEEFD8001D09F8 /* TMEllipseProgressViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1196CDEC15BEEFD8001D09F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1196CDFD15BEEFD8001D09F8 /* InfoPlist.strings in Resources */,
+				1196CE0615BEEFD8001D09F8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1196CDEA15BEEFD8001D09F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1196CDFF15BEEFD8001D09F8 /* main.m in Sources */,
+				1196CE0315BEEFD8001D09F8 /* TMAppDelegate.m in Sources */,
+				1196CE0915BEEFD8001D09F8 /* TMViewController.m in Sources */,
+				9A8FAEA415BF743700AA54E2 /* TMEllipseProgressView.m in Sources */,
+				9A8FAEAA15BF765800AA54E2 /* TMTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1196CDFB15BEEFD8001D09F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1196CDFC15BEEFD8001D09F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1196CE0415BEEFD8001D09F8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1196CE0515BEEFD8001D09F8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1196CE0A15BEEFD8001D09F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1196CE0B15BEEFD8001D09F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1196CE0D15BEEFD8001D09F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMEllipseProgressViewDemo/TMEllipseProgressViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "TMEllipseProgressViewDemo/TMEllipseProgressViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1196CE0E15BEEFD8001D09F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TMEllipseProgressViewDemo/TMEllipseProgressViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "TMEllipseProgressViewDemo/TMEllipseProgressViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1196CDE815BEEFD8001D09F8 /* Build configuration list for PBXProject "TMEllipseProgressViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1196CE0A15BEEFD8001D09F8 /* Debug */,
+				1196CE0B15BEEFD8001D09F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1196CE0C15BEEFD8001D09F8 /* Build configuration list for PBXNativeTarget "TMEllipseProgressViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1196CE0D15BEEFD8001D09F8 /* Debug */,
+				1196CE0E15BEEFD8001D09F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1196CDE515BEEFD8001D09F8 /* Project object */;
+}
